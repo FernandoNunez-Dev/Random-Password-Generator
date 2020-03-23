@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    
+    <div class="warning">
+       <h1>Random Password Generator</h1>
+       <p>Click on the Generate button to activate the Random Password Generator!</p>
+            <form name="myform" method="post" action="">
+                <input type="hidden" name="length" value="15">
+                <table width="30%" border="0">
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input name="row_password" type="text" size="40">&nbsp;
+                            <input type="button" class="button" value="Generate" onClick="generate();" tabindex="2">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            
+        </div>
+       
+     <script src="scripts.js"></script>
+</body>
+</html>
